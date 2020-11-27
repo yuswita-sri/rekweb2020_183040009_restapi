@@ -35,7 +35,7 @@ $('.nav-link').on('click', function() {
 
         $.each(menu, function(i, data) {
             if(data.kategori == kategori.toLowerCase()) {
-                let isiMenu = '<div class="col-md-4><div class="card mb-3"><img src="img/'+ data.gambar +'" class="card-img-top><div class="card-body"><h5 class="card-tittle">'+ data.nama +'</h5><p class="card-text">'+ data.deskripsi +'</p><h5 class="card-tittle">'+ data.harga +'</h5><a herf="#" class="btn btn-primary">Order Now!</a></div></div></div>';
+                let isiMenu = '<div class="col-md-4><div class="card mb-3"><img src="img/pizza/'+ data.gambar +'" class="card-img-top><div class="card-body"><h5 class="card-tittle">'+ data.nama +'</h5><p class="card-text">'+ data.deskripsi +'</p><h5 class="card-tittle">'+ data.harga +'</h5><a href="#" class="btn btn-primary">Order!</a></div></div></div>';
 
                 content += isiMenu;
             }
